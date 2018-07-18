@@ -14,7 +14,7 @@ String.prototype.hashCode = function () {
 function pageLoad() {
     console.log('PageLoad');
     $('#btnPasswordSubmit').click(function() {
-        if ($(this).val().toLowerCase().hashCode() == 102866733) {
+        if ($('#txtPassword').val().toLowerCase().hashCode() == 102866733) {
             console.log('lewd view activated');
         } else {
             console.log('wrong');
