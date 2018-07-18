@@ -1,3 +1,33 @@
+:root {
+  --Button-focus: #0080D5;
+  --Button-text-color: #FFFFFF;
+  --Button-background-color: #00548B;
+}
+
+
+
 body {
-  font-family: Verdana;
+  font-family: Helvetica;
+}
+
+.MyButton {
+  background-color: var(--Button-background-color);
+  margin: 1px;
+  color: var(--Button-text-color);
+  font-size: 13px;
+  border: none;
+  padding: 5px 10px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: .25s;
+}
+
+.MyButton:focus {
+  outline: none;
+  box-shadow: 0 0 1.5px 1.5px var(--Button-focus); 
+}
+
+.MyButton:hover {
+  background: var(--Button-focus);
 }
