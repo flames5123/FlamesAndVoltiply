@@ -19,5 +19,6 @@ function pageLoad() {
         } else {
             console.log('wrong');
         }
+        return false;
     });
 }
