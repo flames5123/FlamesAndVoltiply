@@ -4,11 +4,11 @@
   --Button-background-color: #00548B;
 }
 
-
-
 body {
   font-family: Helvetica;
 }
+
+/* Buttons */
 
 .MyButton {
   background-color: var(--Button-background-color);
