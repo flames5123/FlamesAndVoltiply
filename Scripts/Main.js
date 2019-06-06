@@ -8,3 +8,4 @@ function defer() {
         setTimeout(defer(), 50);
     }
 }
+defer();
